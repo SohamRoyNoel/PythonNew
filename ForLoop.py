@@ -2,7 +2,7 @@ for i in range(1, 20):
     print("the number is {0:4}".format(i))
 
 number = "9,151,858,141,259,145,148,852,123"
-for i in range(0, len(number)):  # default it can take 0 to n-1
+for i in range(0, len(number)):  # default it can take 0 to n-1 - Extracts each number from element
     print(number[i])
 
 number = "9,151,858,141,259,145,148,852,123"
@@ -18,7 +18,7 @@ for i in range(0, len(number)):
 number = "9,151,858,141,259,145,148,852,123"
 for i in range(0, len(number)):
     if number[i] in "123456789":
-        # violates the end case
+        # violates the commas case
         print("the number is {0}".format(number[i], end=""))
 
 number = "9,151,858,141,259,145,148,852,123"
